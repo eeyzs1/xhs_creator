@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# User uploads & AI generated images
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Runtime database
+**/data/db.json
+!**/data/.gitkeep
+
+# Environment variables (contains API keys)
+.env
+!.env.example
+
+# Node / frontend
+node_modules/
+package-lock.json
+
+# Android build
+*.apk
+*.aab
+*.keystore
+local.properties
+android/.gradle/
+android/app/google-services.json
+
+# Misc
+*.pcm
+*.app
+tmp_payload.json
+
+# Test artifacts
+s*.png
+ui*.xml
+test_ai_quick.py
+
+# Git filter-branch artifacts
+.git-rewrite/
